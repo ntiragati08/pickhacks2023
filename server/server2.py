@@ -25,21 +25,22 @@ CORS(app)
 
 def predict():
 
-    # try:
-    #     N = int(request.json['N'])
-    #     P = int(request.json['P'])
-    #     K = int(request.json['K'])
+    try:
+        N = int(request.json['N'])
+        P = int(request.json['P'])
+        K = int(request.json['K'])
+        temprature = int(request.json['temp'])
+        humidity = int(request.json['humidity'])
+        rainfall = int(request.json['rainfall'])
       
-    #     moisture = float(request.json['moisture'])
-    #     soil_type = 22
-    #     crop_type = 23
+        moisture = float(request.json['moisture'])
+        soil_type = float(request.json['soil_type'])
+        crop_type = float(request.json['crop_type'])
        
-    # except:
-    #     return jsonify({"crop": 'failed to get info2', "data": request.json})
+    except:
+        return jsonify({"crop": 'failed to get info2', "data": request.json})
 
-    # temprature = 20
-    # humidity = 30
-    # rainfall = 100
+    
 
 
 
@@ -52,7 +53,7 @@ def predict():
     df = pd.DataFrame(columns=['Temparature', 'Humidity ',	'Moisture',	'Soil Type',	'Crop Type',	'Nitrogen',	'Potassium',	'Phosphorous'])
 
     # Add the array [1, 2] to the first row
-    data = np.array([28,54,25,4,3,9,10,30])
+    data = np.array([N,P,K,temperature,humidity,rainfall,moisture,soil_type,crop_type])
     df.loc[0] = data
     #print(df.head(1))
     prediction = model.predict(df.head(1))[0]

@@ -1,0 +1,35 @@
+.footerSection {
+  background-color: #6cad46;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 180px;
+  margin-top: 1px;
+
+  p {
+    width: 50%;
+    text-align: center;
+  }
+  .footerLinksDiv {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+
+    a {
+      color: white;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: bolder;
+      margin: 0px 30px;
+      transition: all 300ms linear 0s;
+      box-sizing: border-box;
+      border-bottom: 2px solid transparent;
+    }
+    a:hover {
+      border-bottom: 2px solid;
+    }
+  }
+}

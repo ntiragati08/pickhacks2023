@@ -44,23 +44,19 @@ python3 server2.py
 
 <table>
     <tr>
-        <td><img src="./readme_assets/react.jpeg" width="200px" height="200px" /></td>
+        <td><img src="./readme_assets/react.jpg" width="200px" height="200px" /></td>
         <td><img src="./readme_assets/flask.png" width="200px" height="200px" /></td>
     </tr>
     <tr>
-        <td><img src="./readme_assets/python.jpg" width="200px" height="200px" /></td>
+        <td><img src="./readme_assets/python.png" width="200px" height="200px" /></td>
         <td><img src="./readme_assets/scikit.jfif" width="200px" height="200px" /></td>
     </tr>
 </table>
 
-<img src="./readme_assets/bootstrap.png" width="400px" height="200px" />
-</div>
-
-<br/>
 
 ## Demo Of Web Application
 
-<img src="./readme_assets/lappy_gif.gif" />
+<img src="./readme_assets/bootstrap.gif" />
 
 <div align="center">
 

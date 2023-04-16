@@ -8,6 +8,8 @@
 
 <b>Data-driven fertilizer recommendation is an advanced agricultural practice that utilizes data and technology to optimize fertilizer application in crop production. It involves the collection, analysis, and interpretation of various data types, such as soil nutrient levels, weather conditions, crop growth stage, and yield goals, to provide customized fertilizer recommendations for farmers. These recommendations aim to achieve maximum crop yields while minimizing environmental impact, reducing costs, and improving sustainability in agriculture.</b> 
 
+- <img width="693" alt="image" src="https://user-images.githubusercontent.com/81625376/232320783-38402d31-d1a3-4804-9326-9da278f00f19.png">
+
 
 React JS was used to build the frontend part of the application.<br/>
 
